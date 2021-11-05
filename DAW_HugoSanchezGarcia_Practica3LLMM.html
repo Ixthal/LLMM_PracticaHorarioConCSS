@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Horario de clase</title>
+        <meta charset="UTF-8">
+        <style>
+            h1{
+                text-align:center; height: 50; width: 100;
+            }
+            .title_caption{
+                color: black; font-style: italic; font-size: medium;
+            }
+            .top{
+                background-color: #7D20D5;
+            }
+            .days{
+                background-color: #D52054;
+            }
+            .programacion{
+                text-align:center; height: 50; width: 100; background-color: #D52078;
+            }
+            .ssii{
+                text-align: center; height: 50; width: 100;background-color: #20D5A6;
+            }
+            .llmm{
+                text-align: center; height: 50; width: 100; background-color: #D52041;
+            }
+            .eedd{
+                text-align:center; height:50; width: 100; background-color: #D56520;
+            }
+            .bbdd{
+                text-align: center; height: 50; width: 100; background-color: #D5D020;
+            }
+            .fol{
+                text-align: center; height: 50; width: 100; background-color: #20D572;
+            }
+            .ingles{
+                text-align: center; height: 50; width: 100; background-color: #D59620;
+            }
+            .recreo{
+                text-align: center; height: 50; width: 100; background-color: #76740C;
+            }
+            .horas{
+                text-align: center; height: 50; width: 100; background-color: #76740C;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Horario</h1>
+        <table border="5" cellspacing="10" align="center">
+            <caption class="title_caption">FP de Desarrollo Web</caption>
+            <tr>
+                <th class="top">Hora/Día<a href=""></a></th>
+                <th class="days">Lunes</th>
+                <th class="days">Martes</th>
+                <th class="days">Miércoles</th>
+                <th class="days">Jueves</th>
+                <th class="days">Viernes</th>
+            </tr>
+            <tr>
+                <td class="horas">8:30-9:20</td>
+                <td class="programacion">Programación</td>   
+                <td class="programacion" rowspan="2">Programación</td>
+                <td class="eedd" rowspan="2">Entornos de desarrollo</td>
+                <td class="bbdd">Bases de datos</td>
+                <td class="programacion" rowspan="2">Programación</td>
+            </tr>
+            <tr>
+                <td class="horas">9:20-10:20</td>
+                <td class="ssii" rowspan="2">Sistemas Informáticos</td>
+                <td class="programacion" rowspan="2">Programación</td>   
+            </tr>
+            <tr>
+                <td class="horas">10:20-11:15</td>
+                <td class="bbdd">Bases de datos</td>
+                <td class="bbdd">Bases de datos</td>
+                <td class="ssii">Sistemas Informáticos</td>
+            </tr>
+            <tr>
+                <td class="horas">11:15-11:45</td>
+                <td class="recreo" colspan="6">Recreo</td> 
+            </tr>
+            <tr>
+                <td class="horas">11:45-12:40</td>
+                <td class="llmm" rowspan="2">Lenguaje de marcas</td>
+                <td class="bbdd">Bases de datos</td>
+                <td class="fol">FOL</td>
+                <td class="fol">FOL</td>
+                <td class="bbdd" rowspan="2">Bases de datos</td>
+            </tr>
+            <tr>
+                <td class="horas">12:40-13:35</td>
+                <td class="ssii" rowspan="2">Sistemas Informáticos</td>
+                <td class="ingles" rowspan="2">Inglés</td>
+                <td class="llmm" rowspan="2">Lenguaje de marcas  </td>
+            </tr>
+            <tr>
+                <td  class="horas">13:35-14:30</td>
+                <td class="eedd">Entornos de desarrollo</td>
+                <td class="fol">FOL</td>
+            </tr>
+        </table>
+    </body>
+</html>
